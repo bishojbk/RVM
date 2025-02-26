@@ -1,0 +1,23 @@
+# Dataset Configuration for Bottle Sorting (YOLOv8)
+path: C:\Users\Bisoj Pc\Desktop\test1_wasteNot # Root directory for the dataset
+train: images/train # Train images (relative to the path)
+val: images/val # Validation images (relative to the path)
+test: images/test # Test images (relative to the path)
+
+# Class names and their corresponding class IDs
+names:
+  0: "can" # Class 0: Cans
+  1: "plastic" # Class 1: Plastics
+
+# # Augmentation Parameters
+# translate: 0.1 # Slight translation (10%) for robustness
+# scale: 0.3 # Resize scale variation (up to 30%)
+# shear: 0.2 # Shear distortion (20%)
+# perspective: 0.1 # Perspective warp (10%)
+# flipud: 0.5 # Flip upside-down (50% chance)
+# fliplr: 0.5 # Flip left-right (50% chance)
+# mosaic: 0.5 # Mosaic augmentation (50% chance, recommended for object detection)
+# mixup: 0.2 # Mixup augmentation (20% chance)
+# hsv_h: 0.02 # Hue shift (small change)
+# hsv_s: 0.7 # Saturation shift (more color variation)
+# hsv_v: 0.4 # Brightness shift (prevents overexposure)
